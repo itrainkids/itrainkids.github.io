@@ -1,0 +1,20 @@
+{
+  "trainers": [
+    {
+      "imageURL": "assets/img/index-trainer-0.jpg",
+      "name": "RICHARD SUN"
+    },
+    {
+      "imageURL": "assets/img/index-trainer-1.jpg",
+      "name": "JOYCE LIM"
+    },
+    {
+      "imageURL": "assets/img/index-trainer-2.jpg",
+      "name": "SARAH"
+    },
+    {
+      "imageURL": "assets/img/index-trainer-3.jpg",
+      "name": "AMIRUL"
+    }
+  ]
+}

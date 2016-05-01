@@ -1,0 +1,87 @@
+.banner-mast {
+    margin-top: 60px;
+    min-height: 490px;
+    background: url("../img/index-mast-01.jpg") no-repeat center;
+     background-size: cover;
+}
+
+.title {
+    padding-top: 160px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle {
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 200;
+}
+
+.banner-mast .button-green {
+    margin-top: 30px;
+}
+
+.banner-title {
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner-subtitle {
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner-description {
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/**
+ * Sections
+ **/
+
+.words {
+    min-height: 300px;
+}
+
+.track-left {
+    height:317px;
+    background: url("../img/index-track-left-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.track-right {
+    height:317px;
+    background: url("../img/index-track-right-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.track img {
+    padding-top: 70px;
+}
+
+.track-text {
+    padding-top: 17px;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+.method {
+    min-height: 465px;
+    text-align: center;
+}
+.method img {
+    height: 58px;
+    width: 58px;
+    margin-bottom: 28px;
+}

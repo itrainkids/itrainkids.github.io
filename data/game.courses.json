@@ -1,0 +1,40 @@
+{
+  "courses": [
+    {
+      "headerImage": "assets/img/workshops-game-course-01.jpg",
+      "difficulty": "course-card-level-introductory",
+      "title": "Build A Pong Game",
+      "href": "#"
+    },
+    {
+      "headerImage": "assets/img/workshops-game-course-02.jpg",
+      "difficulty": "course-card-level-beginner",
+      "title": "Space Invaders",
+      "href": "#"
+    },
+    {
+      "headerImage": "assets/img/workshops-game-course-03.jpg",
+      "difficulty": "course-card-level-beginner",
+      "title": "Bash The Mole",
+      "href": "#"
+    },
+    {
+      "headerImage": "assets/img/workshops-game-course-04.jpg",
+      "difficulty": "course-card-level-beginner",
+      "title": "Build A Mario-like Game",
+      "href": "#"
+    },
+    {
+      "headerImage": "assets/img/workshops-game-course-05.jpg",
+      "difficulty": "course-card-level-beginner",
+      "title": "Build A Typing Game",
+      "href": "#"
+    },
+    {
+      "headerImage": "assets/img/workshops-game-course-06.jpg",
+      "difficulty": "course-card-level-intermediate",
+      "title": "Bomber Man",
+      "href": "#"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iTrain Kids</title>
+
+    <!--<link rel="icon" href="assets/img/logo-minimal.png" sizes="16x16">-->
+    <link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/faq.css">
+
+    <script src="components/jquery/dist/jquery.min.js"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="components/handlebars/handlebars.min.js"></script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+
+    <section class="banner-mast">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 title">
+                    <p class="orange">FAQ</p>
+                </div>
+                <div class="col-xs-12 subtitle">
+                    <p>You have enquiries that are not listed here ?</p>
+                </div>
+                <div class="col-xs-12">
+                    <a href="contact.html">
+                        <button class="button-green">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- question -->
+    <section class="faqs">
+        <div class="container-fluid">
+        </div>
+    </section>
+
+
+    <!-- enquire more -->
+    <section class="another-purple-bg">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xs-12" style="padding-top: 86px;"></div>
+                <div class="col-xs-12">
+                    <p class="banner-title white">
+                        NEED TO ENQUIRE <span class="orange">MORE</span> ?
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <button class="button-green">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </button>
+                </div>
+                <div class="col-xs-12" style="padding-top: 70px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script id="faq-template" type="text/x-handlebars-template">
+        {{#faqs}}
+            <div class="row text-center">
+                <div         class="col-xs-12 question"
+                       data-toggle="collapse"
+                       data-target="{{data_target}}"
+                     aria-expanded="false"
+                     aria-controls="{{id}}">
+                    <p>
+                        {{question}} &nbsp;<span class="glyphicon glyphicon-chevron-down"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="faq-divider "></div>
+            <div id="{{id}}" class="row text-center collapse">
+                <div class="col-xs-12 answer ">
+                    <p>{{answer}}</p>
+                </div>
+            </div>
+        {{/faqs}}
+    </script>
+
+    <script>
+        (function () {
+            $('#navbar-container').load('assets/common/navbar.html');
+            $('#footer-container').load('assets/common/footer.html');
+
+            var $target  = $('.faqs > .container-fluid');
+            var source   = $('#faq-template').html();
+            var template = Handlebars.compile(source);
+            $.getJSON('data/faqs.json', function (data) {
+
+                data.faqs = data.faqs.map(function (faq, index) {
+                    faq.id          = "faq-" + index;
+                    faq.data_target = "#faq-" + index;
+                    return faq;
+                });
+
+                $target.append(template(data));
+            });
+
+        }());
+    </script>
+</body>
+</html>

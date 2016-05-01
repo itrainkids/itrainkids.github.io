@@ -1,0 +1,22 @@
+{
+  "courses": [
+    {
+      "headerImage": "assets/img/workshops-app-course-01.jpg",
+      "difficulty": "course-card-level-introductory",
+      "title": "Make Your Phone Speak!",
+      "href": "#"
+    },
+    {
+      "headerImage": "assets/img/workshops-app-course-02.jpg",
+      "difficulty": "course-card-level-beginner",
+      "title": "Building A Typing Game",
+      "href": "#"
+    },
+    {
+      "headerImage": "assets/img/workshops-app-course-03.jpg",
+      "difficulty": "course-card-level-beginner",
+      "title": "Photo Drawing app & Bouncing Ball",
+      "href": "#"
+    }
+  ]
+}

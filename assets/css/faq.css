@@ -1,0 +1,139 @@
+.banner-mast {
+    margin-top: 60px;
+    min-height: 280px;
+    background: url("../img/faq-mast-01.jpg") no-repeat center;
+     background-size: cover;
+}
+
+.title {
+    padding-top: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle {
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 200;
+}
+
+.button-green {
+    margin-top : 25px;
+}
+
+
+
+/**
+ * Questions
+ **/
+
+.question > p {
+       padding-top: 23px;
+    padding-bottom: 23px;
+     margin-bottom: 0px;
+        min-height: 60px;
+       font-weight: 500;
+         font-size: 15px;
+}
+
+.faq-divider {
+    /*border-top: 0.5px solid #f2f2f2;*/
+}
+
+.answer > p {
+            margin: 0 auto;
+         max-width: 700px;
+       font-weight: 300;
+         font-size: 14px;
+       padding-top: 0px;
+    padding-bottom: 27px;
+     margin-bottom: 0px;
+}
+
+.faqs > .container-fluid > div:nth-child(1),
+.faqs > .container-fluid > div:nth-child(2),
+.faqs > .container-fluid > div:nth-child(3) {
+    background-color: #2A4385; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(4),
+.faqs > .container-fluid > div:nth-child(5),
+.faqs > .container-fluid > div:nth-child(6) {
+    background-color: #007EC5; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(7),
+.faqs > .container-fluid > div:nth-child(8),
+.faqs > .container-fluid > div:nth-child(9) {
+    background-color: #23C2F2; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(10),
+.faqs > .container-fluid > div:nth-child(11),
+.faqs > .container-fluid > div:nth-child(12) {
+    background-color: #00B6C9; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(13),
+.faqs > .container-fluid > div:nth-child(14),
+.faqs > .container-fluid > div:nth-child(15) {
+    background-color: #05D6A0; color: #231F20;
+}
+
+.faqs > .container-fluid > div:nth-child(16),
+.faqs > .container-fluid > div:nth-child(17),
+.faqs > .container-fluid > div:nth-child(18) {
+    background-color: #7DF56E; color: #231F20;
+}
+
+.faqs > .container-fluid > div:nth-child(19),
+.faqs > .container-fluid > div:nth-child(20),
+.faqs > .container-fluid > div:nth-child(21) {
+    background-color: #D6FF6A; color: #231F20;
+}
+
+.faqs > .container-fluid > div:nth-child(22),
+.faqs > .container-fluid > div:nth-child(23),
+.faqs > .container-fluid > div:nth-child(24) {
+    background-color: #FFC235; color: #231F20;
+}
+
+.faqs > .container-fluid > div:nth-child(25),
+.faqs > .container-fluid > div:nth-child(26),
+.faqs > .container-fluid > div:nth-child(27) {
+    background-color: #FF831F; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(28),
+.faqs > .container-fluid > div:nth-child(29),
+.faqs > .container-fluid > div:nth-child(30) {
+    background-color: #EA412A; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(31),
+.faqs > .container-fluid > div:nth-child(32),
+.faqs > .container-fluid > div:nth-child(33) {
+    background-color: #EE4B76; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(34),
+.faqs > .container-fluid > div:nth-child(35),
+.faqs > .container-fluid > div:nth-child(36) {
+    background-color: #EE75B0; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(37),
+.faqs > .container-fluid > div:nth-child(38),
+.faqs > .container-fluid > div:nth-child(39) {
+    background-color: #AD4991; color: #ffffff;
+}
+
+.faqs > .container-fluid > div:nth-child(40),
+.faqs > .container-fluid > div:nth-child(41),
+.faqs > .container-fluid > div:nth-child(42) {
+    background-color: #6F58D4; color: #ffffff;
+}
+

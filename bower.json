@@ -1,0 +1,17 @@
+{
+  "name": "itrain-web",
+  "authors": [
+    "Eriad Developers <webdev@eriad.com>"
+  ],
+  "description": "iTrain",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "ellipsis.com.my",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "handlebars": "^4.0.5"
+  }
+}

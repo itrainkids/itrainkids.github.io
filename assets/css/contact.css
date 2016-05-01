@@ -1,0 +1,88 @@
+.banner-mast {
+    margin-top: 60px;
+    min-height: 280px;
+    background: url("../img/contact-mast-01.jpg") no-repeat center;
+     background-size: cover;
+}
+
+.title {
+    padding-top: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle {
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 200;
+}
+
+/**
+ * Join Us
+ **/
+
+.join-us {
+    min-height: 408px;
+}
+
+.join-us-title {
+    padding-top: 75px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.join-us-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.join-us-image {
+    padding: 36px 0px;
+}
+
+.join-us-image-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/**
+ * Location
+ **/
+
+.location-container {
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(128, 129, 132, 1);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(128, 129, 132, 1);
+    box-shadow: 5px 5px 0px 0px rgba(128, 129, 132, 1);
+}
+
+.locations-title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.location-header {
+    min-height: 56px;
+    padding-top: 18px;
+    padding-left: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.location-map {
+    height: 190px;
+    margin-top: -10px;
+}
+
+.location-details {
+    min-height: 188px;
+    padding-top: 18px;
+    padding-left: 24px;
+    font-weight: 300;
+    font-size: 14px;
+}
