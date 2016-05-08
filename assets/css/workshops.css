@@ -148,3 +148,45 @@
 .app-development {
     background-color: #FFFFFF;
 }
+
+/**
+ * Private Class
+ **/
+.private-class {
+    min-height: 363px;
+}
+
+.private-class .course-title {
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+}
+
+.circle-text {
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 58px;
+    height: 58px;
+    padding: 8px;
+    background: transparent;
+    text-align: center;
+    font-size: 26px;
+}
+
+.circle-text.one {
+    border: 3px solid #00B596;
+    color: #00B596;
+}
+
+.circle-text.two {
+    border: 3px solid #00B0E8;
+    color: #00B0E8;
+}
+
+.private-class .one-text,
+.private-class .two-text {
+    padding-top: 14px;
+}
+
+.private-class .one-text { color: #00B596; }
+.private-class .two-text { color: #00B0E8; }
